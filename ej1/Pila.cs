@@ -27,11 +27,15 @@ namespace ej1
         }
         public bool estaVacia()
         {
+            return contador == 0;
+        }
+        /*{
             if (elementos[0] == null) 
             { return true; }
             else
             { return false; }
-        }
+        }*/
+
         public object extraer()
         {
             Object primero = elementos[0];
